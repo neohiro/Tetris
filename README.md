@@ -1,2 +1,2 @@
 # Tetris
-A small retro Tetris for Windows &amp; Linux
+A small retro Tetris game for Windows &amp; Linux, written in Python
