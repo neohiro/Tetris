@@ -45,7 +45,7 @@ jobs:
         if: matrix.os == 'windows-latest'
         run: |
           pyinstaller --noconfirm --onedir --windowed Tetris.PY
-          Compress-Archive -Path "dist\Tetris\*" -DestinationPath "Tetris-Windows.zip" -Force
+          Compress-Archive -Path "dist\Tetris" -DestinationPath "Tetris-Windows.zip" -Force
 
       - name: Build macOS Executable
         if: matrix.os == 'macos-latest'
